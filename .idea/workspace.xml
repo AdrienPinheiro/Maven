@@ -5,20 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc264005-8f79-4e5d-8fe4-0382be44cb8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/SystemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bll/BLLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bll/ProduitManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bll/TestBLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Achat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/AppliTestBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Auteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/CartePostale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Glace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Ligne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Pain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/ProduitPerissable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/Stylo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/bo/TypeCartePostale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/DALException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/AuteurJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/CartePostaleJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/GlaceJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/JBDCTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/PainJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/ProduitsJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/StyloJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestAuteurJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestCartePostaleJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestGlaceJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestPainJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestProduitsJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/dal/jbdc/TestStyloJBDCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/adrien/maven/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2B1HtIbgNR4fYd0VH5SeWF5CYok" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,9 +73,97 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Workplace/IntelliJ/MavenTp/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workplace\IntelliJ\MavenTp\src\main\resources" />
+      <recent name="D:\Workplace\IntelliJ\MavenTp\src\main\java\eu\adrien\maven\bll" />
+      <recent name="D:\Workplace\IntelliJ\MavenTp\src\main\java\eu\adrien\maven\bo" />
+      <recent name="D:\Workplace\IntelliJ\MavenTp\src\main\java\eu\adrien\maven\dal\jbdc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workplace\IntelliJ\MavenTp\src\main\java\eu\adrien\maven\dal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.adrien.maven.App" />
+      <module name="MavenTp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.adrien.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAuteurJBDCImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.adrien.maven.dal.jbdc.TestAuteurJBDCImpl" />
+      <module name="MavenTp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.adrien.maven.dal.jbdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.adrien.maven.bll.TestBLL" />
+      <module name="MavenTp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.adrien.maven.bll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCartePostaleJBDCImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.adrien.maven.dal.jbdc.TestCartePostaleJBDCImpl" />
+      <module name="MavenTp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.adrien.maven.dal.jbdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGlaceJBDCImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.adrien.maven.dal.jbdc.TestGlaceJBDCImpl" />
+      <module name="MavenTp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.adrien.maven.dal.jbdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.TestBLL" />
+        <item itemvalue="Application.TestCartePostaleJBDCImpl" />
+        <item itemvalue="Application.TestAuteurJBDCImpl" />
+        <item itemvalue="Application.TestGlaceJBDCImpl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
